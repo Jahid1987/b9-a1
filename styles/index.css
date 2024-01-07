@@ -57,6 +57,7 @@ button{
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
+    margin-bottom: 16px;
 }
 .banner .banner-text h1{
     color: #FFF;
@@ -136,7 +137,7 @@ button{
     letter-spacing: 7.04px;
 }
 #midnight-party .party-text p{
-    color: #ffffcc;
+    color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
@@ -146,7 +147,18 @@ button{
     position: absolute;
     top: 70px;
     right: 140px;
-    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+#midnight-party .party-img img{
+    display: flex;
+width: 319.83px;
+height: 464.662px;
+padding: 0.008px 0px 0px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+    /* mask-image: linear-gradient(to left, transparent 50%, rgb(126, 121, 121)); */
 }
 
 
@@ -185,6 +197,7 @@ button{
     justify-content: space-between;
     gap: 50px;
     align-items: center;
+    align-content: center;
 }
 #coming-soon .text-left{
     width: 390px;
@@ -254,6 +267,78 @@ button{
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+}
+#coming-soon .text-right img{
+    margin-top: 45px;
+    height: 140px;
+    width: 140px;
+}
+/* Holiday sales  */
+#holiday{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+#holiday .holiday-text{
+    width: 1070px;
+    text-align: center;
+}
+#holiday .holiday-text h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+#holiday .holiday-text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+#holiday .holiday-text h2 span{
+    color: #F00;
+}
+#holiday .holiday-text p{
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+#holiday .holiday-imgs{
+    position: relative;
+    width: 1320px;
+    height: 665px; /* i gave 3 pixel more compared to images height" */
+}
+#holiday .holiday-imgs img{
+    position: absolute;
+}
+/* <img class="girl-img" src="resources/Rectangle_1.png" alt="">
+<img class="offer-img" src="resources/Group_44.png" alt="">
+<img class="box-img" src="resources/Group_75.png" alt="">
+<img class="red-img" src="resources/Rectangle_2.png" alt=""> */
+
+#holiday .holiday-imgs .red-img{
+    bottom: 0px;
+    left: 0px;
+}
+#holiday .holiday-imgs .girl-img{
+    bottom: 229px;
+    right: 0px;
+}
+#holiday .holiday-imgs .offer-img{
+    bottom: 266px;
+    right: 285px;
+}
+#holiday .holiday-imgs .box-img{
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
 }
 
 /* portfolio section  */
@@ -382,6 +467,7 @@ button{
 /* footer section  */
 footer{
     margin-top: 120px;
+    width: 1600px;
     height: 610px;
     flex-shrink: 0;
     background: #070211;
