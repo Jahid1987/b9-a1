@@ -32,7 +32,7 @@ button{
     background-image:linear-gradient(180deg, 
             #070211 0%, 
             rgba(7, 2, 17, 0.00) 100%), 
-              url('../resources/Banner_Image.png');
+              url('../resources/Banner_Image.png'); /* ???????????????? have to ask about this */
     background-size: cover;
     background-repeat: no-repeat;
     width: 1320px;
@@ -109,7 +109,7 @@ button{
     background-image:linear-gradient(90deg, 
             #070211 0%, 
             rgba(7, 2, 17, 0.00) 100%), 
-              url('../resources/Vectorrr.png');
+              url('../resources/Vectorrr.png'); 
     background-repeat: no-repeat;
     background-size: cover;
     width: 1320px;
@@ -151,14 +151,14 @@ button{
 }
 #midnight-party .party-img img{
     display: flex;
-width: 319.83px;
-height: 464.662px;
-padding: 0.008px 0px 0px 0px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-    /* mask-image: linear-gradient(to left, transparent 50%, rgb(126, 121, 121)); */
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    /* mix-blend-mode: lighten; have to fix it */
 }
 
 
@@ -202,7 +202,6 @@ flex-shrink: 0;
 #coming-soon .text-left{
     width: 390px;
     text-align: left;
-    /* vertical-align: center; */
 }
 #coming-soon .text-left h3{
     color: #F00;
@@ -318,27 +317,30 @@ flex-shrink: 0;
 #holiday .holiday-imgs img{
     position: absolute;
 }
-/* <img class="girl-img" src="resources/Rectangle_1.png" alt="">
-<img class="offer-img" src="resources/Group_44.png" alt="">
-<img class="box-img" src="resources/Group_75.png" alt="">
-<img class="red-img" src="resources/Rectangle_2.png" alt=""> */
 
 #holiday .holiday-imgs .red-img{
     bottom: 0px;
     left: 0px;
+    width: 1320px;
+    height: 229px;
 }
 #holiday .holiday-imgs .girl-img{
     bottom: 229px;
     right: 0px;
+    width: 429px;
+    height: 433px;
 }
 #holiday .holiday-imgs .offer-img{
-    bottom: 266px;
-    right: 285px;
+    bottom: 340px;
+    right: 325px;
+    width: 220.048px;
+    height: 220.048px;
 }
 #holiday .holiday-imgs .box-img{
     bottom: 0px;
     left: 0px;
     z-index: 1;
+    /* mix-blend-mode: screen; have to fix it */
 }
 
 /* portfolio section  */
