@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 *{
     margin: 0;
@@ -11,18 +12,23 @@
     max-width: 1320px;
     margin: 0 auto;
 }
-
+section{
+    padding-top: 120px;
+}
 /* *** Banner style *** */
 .banner{
     background-image: url('../resources/Banner_Image.png');
     background-size: cover;
     background-repeat: no-repeat;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     width: 1320px;
     height: 600px;
     border-radius: 16px;
     margin-top: 50px;
     position: relative;
+    border-radius: 16px;
 }
+
 .banner .banner-text{
     width: 48%;
     max-width: 632;
@@ -44,4 +50,38 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 95px; /* 131.944% */
+}
+
+/* Category section */
+#category{
+    width: 802.9px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+#category .category-text h2{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+#category .category-text p{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+#category .category-text h3{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
 }
